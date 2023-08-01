@@ -12,31 +12,43 @@ const Portfolio = () => {
       id: 1,
       src: carShowcase,
       title: "Car Showcase | Next | TS | Tailwind",
+      href: "",
+      gitLink: "",
     },
     {
       id: 2,
       src: financeDashboard,
       title: "Finance Dashboard | ML | MERN",
+      href: "",
+      gitLink: "",
     },
     {
       id: 3,
       src: socialMedia,
       title: "Social Media App | MERN | React | Redux | MUI",
+      href: "",
+      gitLink: "",
     },
     {
       id: 4,
       src: wordleBot,
       title: "Wordle Helper Bot | React | MUI",
+      href: "https://wordle-helper-bot.netlify.app/",
+      gitLink: "https://github.com/prateektaneja99/interview-screening-wordlebot/tree/dev",
     },
     {
       id: 5,
       src: punjabGrill,
-      title: "Restaurant App | React | CSSS",
+      title: "Restaurant App | React | CSS",
+      href: "",
+      gitLink: "",
     },
     {
       id: 6,
       src: todoList,
       title: "Todo List | React | TS",
+      href: "",
+      gitLink: "",
     },
   ];
 
@@ -54,7 +66,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, title }) => (
+          {portfolios.map(({ id, src, title, href, gitLink }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -63,12 +75,16 @@ const Portfolio = () => {
               />
               <p className="px-4 pt-4">{title}</p>
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Demo
-                </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Code
-                </button>
+                <a href={href} target="_blank" rel="noopener noreferrer">
+                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                    Demo
+                  </button>
+                </a>
+                <a href={gitLink} target="_blank" rel="noopener noreferrer">
+                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                    Code
+                  </button>
+                </a>
               </div>
             </div>
           ))}
