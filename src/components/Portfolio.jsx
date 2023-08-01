@@ -31,7 +31,7 @@ const Portfolio = () => {
     {
       id: 5,
       src: punjabGrill,
-      title: "Restaurant App | React | CSS",
+      title: "Restaurant App | React | CSSS",
     },
     {
       id: 6,
