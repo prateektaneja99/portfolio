@@ -13,7 +13,7 @@ const Portfolio = () => {
       src: carShowcase,
       title: "Car Showcase | Next | TS | Tailwind",
       href: "",
-      gitLink: "",
+      gitLink: "https://github.com/prateektaneja99/car_showcase",
     },
     {
       id: 2,
@@ -41,14 +41,14 @@ const Portfolio = () => {
       src: punjabGrill,
       title: "Restaurant App | React | CSS",
       href: "",
-      gitLink: "",
+      gitLink: "https://github.com/prateektaneja99/Punjab-Grill",
     },
     {
       id: 6,
       src: todoList,
       title: "Todo List | React | TS",
       href: "",
-      gitLink: "",
+      gitLink: "https://github.com/prateektaneja99/todo-ts",
     },
   ];
 
