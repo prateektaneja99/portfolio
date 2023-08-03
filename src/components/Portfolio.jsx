@@ -3,7 +3,7 @@ import carShowcase from "../assets/portfolio/carShowcase.png";
 import financeDashboard from "../assets/portfolio/financeDashboard.png";
 import punjabGrill from "../assets/portfolio/punjabGrill.png";
 import socialMedia from "../assets/portfolio/socialMedia.png";
-import todoList from "../assets/portfolio/todoList.png";
+import msExcel from "../assets/portfolio/msExcel.png";
 import wordleBot from "../assets/portfolio/wordleBot.png";
 
 const Portfolio = () => {
@@ -45,10 +45,10 @@ const Portfolio = () => {
     },
     {
       id: 6,
-      src: todoList,
-      title: "Todo List | React | TS",
-      href: "",
-      gitLink: "https://github.com/prateektaneja99/todo-ts",
+      src: msExcel,
+      title: "Microsoft Excel Clone | HTML | CSS | JS",
+      href: "https://microsoft-excel-cl.netlify.app",
+      gitLink: "https://github.com/prateektaneja99/Microsoft-Excel-Clone",
     },
   ];
 
